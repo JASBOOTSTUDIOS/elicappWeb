@@ -13,7 +13,7 @@ import sql from '../config/db'; // Importar la configuración de la base de dato
  * @param res 
  */
 
-// Controlador para obtener la lista de usuarios
+// Controlador para obtener la lista de usuarios.
 export const getUsers = async (req: Request, res: Response) => {
     // Lógica para obtener la lista de usuarios (Reales de la base de datos).
     try{
